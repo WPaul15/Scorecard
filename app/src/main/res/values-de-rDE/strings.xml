@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Activity Titles -->
+    <string name="title_about">Über</string>
+    <string name="title_game_setup">%1$s Vorbereitung</string>
+    <string name="title_rules">Regeln</string>
+    <string name="title_select_game">Spiel auswählen</string>
+    <string name="title_enter_scores">Punktzahlen eingeben</string>
+    <!-- End Activity Titles -->
+
+    <!-- About Activity -->
+    <string name="text_about_version">Scorecard Version %1$s</string>
+    <string name="text_about_copyright">
+        &#169;%1$d Willem Paul
+        \nAlle Rechte vorbehalten.
+        \n
+        \nDiese Applikation darf nicht ohne die ausdrückliche Genehmigung des Entwicklers verteilt werden.
+    </string>
+    <!-- End About Activity -->
+
+    <!-- Game Setup Activity -->
+    <!-- End Game Setup Activity -->
+
+    <!-- New Game Activity -->
+    <string name="text_welcome">Willkommen bei Scorecard!</string>
+    <string name="content_desc_new_game_button">Neues Spiel beginnen</string>
+    <string name="text_new_game">Tippe hier, um ein neues Spiel zu beginnen</string>
+    <!-- End New Game Activity -->
+
+    <!-- Rules Activity (Generic) -->
+    <string name="text_rules_header_1">Vorbereitung</string>
+    <string name="text_rules_header_2">Spiel spielen</string>
+    <string name="text_rules_header_3">Punkte zählen</string>
+    <string name="text_rules_header_4">Spiel gewinnen</string>
+    <!-- Rules Activity (Generic) -->
+
+    <!-- Rules Activity (Rich Cards) -->
+    <string name="text_rules_body_1_rich_cards">
+        Um Rich Cards zu spielen, brauchst du vier oder mehr Spieler/innen, ein normales 52er
+        Rommé-Blatt ohne Joker und etwas, auf dem du die Punkte zählen kannst (so wie diese App).\n
+    </string>
+
+    <string name="text_rules_hint_1_rich_cards">
+        Obwohl du mit beliebig viel Spielern/Spielerinnen spielen kannst (wenigstens bis zu 52), ist
+        es nicht empfohlen, mit mehr als sieben zu spielen. Am Besten wäre es, mit vier
+        Spielern/Spielerinnen zu spielen, da keine Karten müssen entfernt werden. Wenn die Gruppe
+        größer als sieben ist, erwäge es, in mehrere Gruppen zu teilen.\n
+    </string>
+
+    <string name="text_rules_body_2_rich_cards">
+        Du brauchst eine gleich durch die Anzahl von Spielern/Spielerinnen teilbare Anzahl von
+        Karten. Das bedeutet, dass du vielleicht vor dem Anfang manche Karten aus dem Blatt
+        entfernen musst.\n
+    </string>
+
+    <string name="text_rules_hint_2_rich_cards">
+        <b>4 Spieler/innen:</b> Verwende alle 52 Karten
+        \n<b>5 Spieler/innen:</b> Verwende 50 Karten
+        \n<b>6 Spieler/innen:</b> Verwende 48 Karten
+        \n<b>7 Spieler/innen:</b> Verwende 49 Karten
+        \nUnd so weiter.\n
+    </string>
+
+    <string name="text_rules_body_3_rich_cards">
+        Karten sind nicht willkürlich zu entfernen, weil das sich auf die Zählung auswirken wird.\n
+    </string>
+
+    <string name="text_rules_hint_3_rich_cards">
+        Hier sind ein paar Beispiele von entfernbaren Karten:
+        \n<b>5 Spieler/innen:</b> 6&#x2663;, 6&#x2666;
+        \n<b>6 Spieler/innen:</b> 5&#x2666;, 6&#x2660;, 7&#x2663;, 6&#x2666;
+        \n<b>7 Spieler/innen:</b> 5&#x2660;, 6&#x2666;, 7&#x2663;\n
+    </string>
+
+    <string name="text_rules_body_4_rich_cards">
+        Wenn du dich dafür entscheiden würdest, andere Karten zu entfernen, achte darauf, dass du
+        keine &#x2665;-Karten entfernst (Siehe <b>Punkte zählen</b>). Wenn möglich, entferne keine
+        hoch- oder geringwertige Karten, wie Asse (A), 2en, Buben (B) usw.\n
+    </string>
+
+    <string name="text_rules_body_5_rich_cards">
+        Wähl den Dealer wie auch immer du möchtest. Dieser Spieler/diese Spielerin mischt das Blatt
+        und verteilt es gleichmäßig unter allen Spielern/Spielerinnen.
+        \n
+        \nDer Spieler/die Spielerin zur Linken des Dealers spielt zuerst. Er oder sie legt eine
+        Karte aus seinem or ihrem Blatt mittendrin, Bildseite nach oben. Die Farbe dieser Karte wird
+        die Trumpffarbe dieses Stichs. Nach links fortsetzend spielt jeder Spieler/jede Spielerin
+        eine Karte aus seinem oder ihrem Blatt in der gleichen Weise. Wenn möglich muss jeder
+        Spieler/jede Spielerin jedoch eine Karte der Trumpffarbe spielen. Wenn ein Spieler/eine
+        Spielerin keine Karten der Trumpffarbe hat, darf er oder sie irgendeine Karte spielen.\n
+    </string>
+
+    <string name="text_rules_hint_4_rich_cards">
+        Zum Beispiel, wenn Spieler/in 1 die 4&#x2663; spielen würde, muss jeder Spieler/jede
+        Spielerin eine &#x2663;-Karte spielen, wenn er oder sie eine &#x2663;-Karte in seinem oder
+        ihrem Blatt hat. Wenn Spieler/in 3 jedoch keine &#x2663;-Karten hat, darf er oder sie dann
+        eine &#x2666;-Karte spielen.\n
+    </string>
+
+    <string name="text_rules_body_6_rich_cards">
+        Nachdem alle Spieler/innen eine Karte gespielt haben, nimmt der Spieler/die Spielerin, der
+        oder die die hochwertigste Karte der Trumpffarbe gespielt hat (Asse sind hoch), den Stich
+        (sämtliche, in dieser Runde gespielte Karten).\n
+    </string>
+
+    <string name="text_rules_hint_5_rich_cards">
+        Zum Beispiel, wenn die Karten im Stich wären:
+        \n<b>Spieler/in 1:</b> 6&#x2665;,
+        \n<b>Spieler/in 2:</b> 3&#x2665;,
+        \n<b>Spieler/in 3:</b> B&#x2660; und
+        \n<b>Spieler/in 4:</b> 7&#x2665;;
+        \ndann nimmt Spieler/in 4 den Stich. Obwohl Spieler/in 3s B&#x2660; höherer Wert ist, ist
+        er nicht der Trumpffarbe (&#x2665;) und wird deshalb beim Ermittlen des Nehmers des Stichs
+        nicht berücksichtigt.\n
+    </string>
+
+    <string name="text_rules_body_7_rich_cards">
+        Der Spieler/die Spielerin, der oder die den Stich genommen hat, legt die nächste Karte ab.
+        \n
+        \nDas Spiel fährt in dieser Weise fort bis entweder alle Karten gespielt worden sind oder es
+        keine möglichen Punkte mehr in der Runde gibt (Siehe <b>Punkte zählen</b>). Nachdem die
+        Runde abgeschlossen ist, wird der Spieler/die Spielerin zum Linken des Dealers der
+        vorhergehenden Runde der neue Dealer der neuen Runde.\n
+    </string>
+
+    <string name="text_rules_body_8_rich_cards">
+        Es sind in einem Spiel sechs Runde, je mit ihrer eigenen Zählungsmethode. Die Runden werden
+        so gezählt:\n
+    </string>
+
+    <string name="text_rules_hint_6_rich_cards">
+        <b>Runde 1:</b> 10 Punkte für jeden Stich.
+        \n<b>Runde 2:</b> 10 Punkte für jede &#x2665;-Karte.
+        \n<b>Runde 3:</b> 25 Punkte für jede Dame (D)-Karte.
+        \n<b>Runde 4:</b> 100 Punkte für den K&#x2660;.
+        \n<b>Runde 5:</b> 100 Punkte für den letzten Stich.
+        \n<b>Runde 6:</b> Verwende alle vorher aufgelisteten Zählungsmethoden.\n
+    </string>
+
+    <string name="text_rules_body_9_rich_cards">
+        Beachte, dass es in den 2., 3. und 4. Runden möglich ist, die Runde abzuschließen, bevor
+        alle Karten ausgespielt worden sind. Wenn es keine Wert habenede Karten mehr in den Blätter
+        der Spieler/innen gibt, wird die Runde abgeschlossen.\n
+    </string>
+
+    <string name="text_rules_hint_7_rich_cards">
+        Zum Beispiel, in der 4. Runde, wenn ein Spieler/eine Spielerin in dem fünften Stich den
+        K&#x2660; nimmt, wird die Runde abgeschlossen, weil der K&#x2660; die einzige Wert habende
+        Karte ist.\n
+    </string>
+
+    <string name="text_rules_body_10_rich_cards">
+        Am Ende des Spiels werden die Punktzahlen jedes Spielers/jeder Spielerin zusammenaddiert, um
+        die schließliche Punktzahl dieses Spielers/dieser Spielerin zu erstellen. Der Spieler/die
+        Spielerin mit der <i>geringsten</i> Punktzahl gewinnt das Spiel.
+    </string>
+    <!-- End Rules Activity (Rich Cards) -->
+
+    <!-- Scorekeeper Activity -->
+    <string name="text_first_round">Anfangspunktzahlen</string>
+    <string name="text_round">Punktzahlen für die %1$d. Runde</string>
+    <!-- End Scorekeeper Activity -->
+
+    <!-- Game Setup RV Adapter -->
+    <string name="text_game_setup_rv_adapter_team">Team %1$d</string>
+    <!-- End Game Setup RV Adapter -->
+
+    <!-- Select Game RV Adapter -->
+    <string name="text_select_game_rv_adapter_players_value">Spieler/innen: %1$d</string>
+    <string name="text_select_game_rv_adapter_players_unlimited">Spieler/innen: %1$d oder mehr</string>
+    <string name="text_select_game_rv_adapter_players_range">Spieler/innen: %1$d bis %2$d</string>
+    <string name="text_select_game_rv_adapter_teams_none">Teams: Keine</string>
+    <string name="text_select_game_rv_adapter_teams">Teams: %1$d-mal %2$der Teams</string>
+    <!-- End Select Game RV Adapter -->
+
+    <!-- Simple Score RV Adapter -->
+    <string name="text_simple_score_rv_adapter_hint">Punktzahl</string>
+    <!-- End Simple Score RV Adapter -->
+
+    <!-- Add Player Dialog -->
+    <string name="text_add_player_title">Spieler/in hunzufügen</string>
+    <string name="text_add_player_hint">Name</string>
+    <string name="text_add_player_team">Team\ </string>
+    <!-- End Add Player Dialog -->
+
+    <!-- Ask Edit Player Dialog -->
+    <string name="text_ask_edit_player_title">%1$s bearbeiten?</string>
+    <!-- End Ask Edit Player Dialog -->
+
+    <!-- Edit Player Dialog -->
+    <string name="text_edit_player_title">Spieler/in bearbeiten</string>
+    <string name="text_edit_player_hint_rename">Name</string>
+    <!-- End Edit Player Dialog -->
+
+    <!-- Info Dialog (Game Setup Activity) -->
+    <string name="dialog_title_error">Upps!</string>
+    <string name="dialog_title_confirm">Warte!</string>
+
+    <string name="text_error_ppt_not_valid">
+        Es scheint, dass die Teams nicht ausgeglichen sind.
+    </string>
+
+    <string name="text_confirm_np_out_of_range">
+        Es sind jetzt %1$d Spieler/innen im Spiel. Es ist jedoch empfohlen, mit maximal %2$d zu
+        spielen. Willst du noch trotzdem fortfahren?
+    </string>
+    <!-- End Info Dialog (Game Setup Activity) -->
+
+    <!-- Game Info Dialog (Select Game Activity) -->
+    <string name="text_game_info_euchre">
+        Euchre ist ein Stichspiel. Teams versuchen, drei der fünf Stiche pro Runde zu gewinnen, mit
+        dem Ziel, zehn Punkte zu sammlen.
+    </string>
+
+    <string name="text_game_info_nerts">
+        Nerts ist eine konkurrenzstarke Patience. Spieler/innen versuchen, alle ihre
+        Karten ihrer Nerts-Stapel loszuwerden, indem die Karten auf gemeinsamen Stapeln gelegt
+        werden.
+    </string>
+
+    <string name="text_game_info_rich_cards">
+        Rich Cards ist ein Stichspiel mit einer Wendung: Jede der sechs Runde hat ihre eigene
+        Zählungsmethode und ihre eigene Stragie dazu.
+    </string>
+    <!-- End Info Dialog (Select Game Activity) -->
+
+    <!-- General Dialog Strings -->
+    <string name="text_select_team_spinner_prompt">Team wählen</string>
+    <string name="text_select_team_spinner_team">Team %1$d</string>
+    <!-- End General Dialog Strings -->
+
+    <!-- Game Strings -->
+    <string name="team_name">Team %1$d</string>
+    <!-- End Game Strings -->
+
+    <!-- Menu Actions -->
+    <string name="menu_action_rules">Regeln</string>
+    <string name="menu_action_about">Über</string>
+    <!-- End Menu Actions -->
+
+    <!-- General Strings -->
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="delete">Löschen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="list_and">\ und\ </string>
+    <string name="list_comma">,\ </string>
+    <string name="list_comma_and">\ und\ </string>
+    <!-- End General Strings -->
+</resources>

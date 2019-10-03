@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/text_margin">
+
+    <EditText
+        android:id="@+id/edit_text_rename_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:hint="@string/text_edit_player_hint_rename"
+        android:imeOptions="actionDone"
+        android:inputType="textCapWords"/>
+
+    <Spinner
+        android:id="@+id/spinner_select_team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/text_select_team_spinner_prompt"
+        android:focusable="true"
+        android:visibility="gone"/>
+</LinearLayout>

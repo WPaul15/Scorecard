@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Colors -->
+    <color name="colorPrimary">#348AA7</color>
+    <color name="colorPrimary99">#99348AA7</color>
+    <color name="colorPrimaryUltraLight">#E7F1F4</color>
+    <color name="colorPrimaryLight">#7DB4C7</color>
+    <color name="colorPrimaryDark">#22586B</color>
+    <color name="colorAccent">#F90E2E</color>
+    <!-- End App Colors -->
+
+    <!-- Text Colors -->
+    <color name="colorTextPrimary">#CC000000</color>
+    <color name="colorTextPrimaryLight">#99000000</color>
+    <color name="colorTextAccent">#CCF90E2E</color>
+    <!-- End Text Colors -->
+</resources>

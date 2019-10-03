@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryUltraLight"
+    tools:context="com.wmpaul.scorecard.activities.ScorekeeperActivity">
+
+    <Button
+        android:id="@+id/button_view_round_scores"
+        style="@style/style_button_borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onViewRoundScoresClick"
+        android:paddingBottom="@dimen/recycler_view_row_padding_vertical"
+        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/recycler_view_row_padding_vertical"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+    <!-- TODO Put a divider here or in the button -->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_score"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="60dp"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_view_round_scores">
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_finish_round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:elevation="4dp"
+        android:onClick="onFABFinishRoundClick"
+        android:scaleType="center"
+        android:src="@drawable/ic_check_white_24dp"
+        app:backgroundTint="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</android.support.constraint.ConstraintLayout>

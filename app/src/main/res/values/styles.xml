@@ -1,0 +1,111 @@
+<resources>
+    <!-- Base Application Theme -->
+    <style
+        name="theme_app"
+        parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- End Base Application Theme -->
+
+    <!-- TextView Styles -->
+    <style
+        name="style_text_view_header"
+        parent="android:style/Widget.TextView">
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textAppearance">@style/style_text_header</item>
+    </style>
+
+    <style
+        name="style_text_view_body"
+        parent="android:style/Widget.TextView">
+        <item name="android:textAppearance">@style/style_text_body</item>
+    </style>
+
+    <style
+        name="style_text_view_sub"
+        parent="android:style/Widget.TextView">
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:textAppearance">@style/style_text_sub</item>
+    </style>
+
+    <style
+        name="style_text_view_sub_sw720dp"
+        parent="android:style/Widget.TextView">
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:textAppearance">@style/style_text_sub_sw720dp</item>
+    </style>
+    <!-- End TextView Styles -->
+
+    <!-- Text Styles -->
+    <style
+        name="style_text_header"
+        parent="Base.TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/colorTextAccent</item>
+    </style>
+
+    <style
+        name="style_text_large"
+        parent="Base.TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <style
+        name="style_text_body"
+        parent="Base.TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <style
+        name="style_text_sub"
+        parent="Base.TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/colorTextPrimaryLight</item>
+    </style>
+
+    <style
+        name="style_text_sub_sw720dp"
+        parent="Base.TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/colorTextPrimaryLight</item>
+    </style>
+    <!-- End Text Styles -->
+
+    <!-- Button Styles -->
+    <style
+        name="style_button_borderless"
+        parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:textAppearance">@style/style_text_large</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingStart">@dimen/text_margin</item>
+        <item name="android:paddingEnd">@dimen/text_margin</item>
+        <item name="android:paddingTop">@dimen/text_margin</item>
+        <item name="android:paddingBottom">@dimen/text_margin</item>
+    </style>
+
+    <style
+        name="style_recycler_view_row"
+        parent="@style/style_text_large">
+        <item name="android:paddingStart">@dimen/text_margin</item>
+        <item name="android:paddingEnd">@dimen/text_margin</item>
+        <item name="android:paddingTop">@dimen/text_margin</item>
+        <item name="android:paddingBottom">@dimen/text_margin</item>
+    </style>
+    <!-- End Button Styles -->
+
+    <!-- Action Bar Themes -->
+    <style
+        name="theme_app.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style
+        name="theme_app.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style
+        name="theme_app.PopupOverlay"
+        parent="ThemeOverlay.AppCompat.Light"/>
+    <!-- End Action Bar Themes -->
+</resources>

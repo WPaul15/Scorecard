@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.wmpaul.scorecard"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/theme_app">
+        <activity android:name=".activities.NewGameActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.GameSetupActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".activities.SelectGameActivity">
+        </activity>
+        <activity
+            android:name=".activities.RulesActivity"
+            android:label="@string/title_rules"
+            android:parentActivityName=".activities.GameSetupActivity">
+        </activity>
+        <activity
+            android:name=".activities.AboutActivity"
+            android:label="@string/title_about"
+            android:parentActivityName=".activities.NewGameActivity">
+        </activity>
+        <activity
+            android:name=".activities.SelectGameActivity"
+            android:label="@string/title_select_game"
+            android:parentActivityName=".activities.NewGameActivity">
+        </activity>
+        <activity
+            android:name=".activities.ScorekeeperActivity"
+            android:label="@string/title_scorekeeper">
+        </activity>
+        <activity
+            android:name=".activities.SimpleEnterScoreActivity"
+            android:label="@string/title_enter_scores">
+        </activity>
+    </application>
+
+</manifest>

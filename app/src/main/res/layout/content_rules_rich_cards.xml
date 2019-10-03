@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.wmpaul.scorecard.activities.RulesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/text_margin"
+        android:paddingEnd="@dimen/text_margin"
+        android:paddingStart="@dimen/text_margin"
+        android:paddingTop="@dimen/text_margin">
+
+        <!-- Getting Started -->
+        <TextView
+            style="@style/style_text_view_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_header_1"/>
+
+        <TextView
+            style="@style/style_text_view_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_body_1_rich_cards"/>
+
+        <TextView
+            style="@style/style_text_view_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_hint_1_rich_cards"/>
+
+        <TextView
+            style="@style/style_text_view_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_body_2_rich_cards"/>
+
+        <TextView
+            style="@style/style_text_view_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_hint_2_rich_cards"/>
+
+        <TextView
+            style="@style/style_text_view_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_body_3_rich_cards"/>
+
+        <TextView
+            style="@style/style_text_view_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_hint_3_rich_cards"/>
+
+        <TextView
+            style="@style/style_text_view_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_body_4_rich_cards"/>
+
+        <!-- Playing the Game -->
+        <TextView
+            style="@style/style_text_view_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_header_2"/>
+
+        <TextView
+            style="@style/style_text_view_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_body_5_rich_cards"/>
+
+        <TextView
+            style="@style/style_text_view_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_hint_4_rich_cards"/>
+
+        <TextView
+            style="@style/style_text_view_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_body_6_rich_cards"/>
+
+        <TextView
+            style="@style/style_text_view_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_hint_5_rich_cards"/>
+
+        <TextView
+            style="@style/style_text_view_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_body_7_rich_cards"/>
+
+        <!-- Scoring -->
+        <TextView
+            style="@style/style_text_view_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_header_3"/>
+
+        <TextView
+            style="@style/style_text_view_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_body_8_rich_cards"/>
+
+        <TextView
+            style="@style/style_text_view_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_hint_6_rich_cards"/>
+
+        <TextView
+            style="@style/style_text_view_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_body_9_rich_cards"/>
+
+        <TextView
+            style="@style/style_text_view_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_hint_7_rich_cards"/>
+
+        <!-- Winning the Game -->
+        <TextView
+            style="@style/style_text_view_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_header_4"/>
+
+        <TextView
+            style="@style/style_text_view_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_rules_body_10_rich_cards"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

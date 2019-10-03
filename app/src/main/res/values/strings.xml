@@ -1,0 +1,414 @@
+<resources>
+    <string name="app_name" translatable="false">Scorecard</string>
+
+    <!-- Activity Titles -->
+    <string name="title_about">About</string>
+    <string name="title_game_setup">%1$s Setup</string>
+    <string name="title_rules">How to Play</string>
+    <string name="title_scorekeeper">%1$s Scorekeeper</string>
+    <string name="title_select_game">Select Game</string>
+    <string name="title_enter_scores">Enter Scores</string>
+    <!-- End Activity Titles -->
+
+    <!-- About Activity -->
+    <string name="text_about_version">Scorecard Version %1$s</string>
+    <string name="text_about_copyright">
+        &#169;%1$d Willem Paul
+        \nAll Rights Reserved.
+        \n
+        \nThis application may not be distributed without the developer\'s explicit permission.
+    </string>
+    <!-- End About Activity -->
+
+    <!-- Game Setup Activity -->
+    <!-- End Game Setup Activity -->
+
+    <!-- New Game Activity -->
+    <string name="text_welcome">Welcome to Scorecard!</string>
+    <string name="content_desc_new_game_button">Start a new game</string>
+    <string name="text_new_game">Tap to start a new game</string>
+    <!-- End New Game Activity -->
+
+    <!-- Rules Activity (Generic) -->
+    <string name="text_rules_header_1">Getting Started</string>
+    <string name="text_rules_header_2">Playing the Game</string>
+    <string name="text_rules_header_3">Scoring</string>
+    <string name="text_rules_header_4">Winning the Game</string>
+    <!-- Rules Activity (Generic) -->
+
+    <!-- Rules Activity (Euchre) -->
+    <string name="text_rules_body_1_euchre">
+        To play Euchre, you need four players in two teams of two, a standard, 52-card deck of,
+        playing cards, and something you can use to keep score (such as this app).
+        \n
+        \nTeam members are seated across from one another.
+        \n
+        \nBefore you begin, remove all cards less than 9 from the deck (i.e. 2 through 8). You will
+        not use those cards at all.\n
+    </string>
+
+    <string name="text_rules_body_2_euchre">
+        Chose the first dealer however you like. That player shuffles the deck and deals it out
+        evenly among all players in alternating groups of two and three cards. Each player should
+        have five cards in his or her hand after dealing.\n
+    </string>
+
+    <string name="text_rules_hint_1_euchre">
+        For example, if Player 1 is the dealer, he or she deals two cards to Player 2, three to
+        Player 3, two to Player 4, three to him- or herself, then three to Player 2, and so on.\n
+    </string>
+
+    <string name="text_rules_body_3_euchre">
+        After dealing, there will be four cards remaining. Turn the top card of this pile over and
+        place the pile in the middle.
+        \n
+        \nEach player, starting with the player to the dealer\'s left, now has the opportunity to
+        call the round\'s trump suit based on the face-up card in the center. If he or she wishes to
+        do so, the dealer must take the face-up card and replace one card in his or her hand with it
+        (i.e. by placing a different card from his or her hand face-down on the pile).\n
+    </string>
+
+    <string name="text_rules_hint_2_euchre">
+        For example, if the face-up card is the A&#x2665; and Player 3 calls the trump suit, then
+        the dealer takes the A&#x2665; and adds it into his or her hand. Then, he or she must
+        remove a different card from his or her hand, for example, the 9&#x2660;, and place it
+        face-down on the pile. &#x2665; is now the trump suit for that round.\n
+    </string>
+
+    <string name="text_rules_body_4_euchre">
+        If the first player (to the left of the dealer) does not wish to call the trump suit, he
+        or she may pass, and the decision now goes to the player to his or her left.
+        \n
+        \nThis continues until either the dealer has taken the face-up card or until all four
+        players have passed. If the dealer takes the face-up card, that card\'s suit is now the
+        trump suit for the round. If not, starting with the player to the dealer\'s left, each
+        player has the opportunity to call the round\'s trump suit by naming a suit.\n
+    </string>
+
+    <string name="text_rules_hint_3_euchre">
+        Tip: Calling the trump suit, whether by making the dealer take the face-up card or by naming
+        the suit, should be based off of the cards in your hand.\n
+    </string>
+
+    <string name="text">
+        The player to dealer\'s left plays first. He or she places a card from his or her hand
+        face-up in the middle. Continuing to the left, each player plays a card from his or her hand
+        in the same manner. However, each player must play a card in the same suit as the leading
+        card (the first card played) if possible. If a player does not have a card in the leading
+        suit, then he or she may play any card.\n
+    </string>
+    <!-- End Rules Activity (Euchre) -->
+
+    <!-- Rules Activity (Nerts) -->
+    <string name="text_rules_body_1_nerts">
+        To play Nerts, you need any number of players, a standard, 52-card deck of playing cards for
+        each player, and something you can use to keep score (such as this app).\n
+    </string>
+
+    <string name="text_rules_hint_1_nerts">Be sure that each deck has a <i>different</i> back design.
+        Thereason for this will be explained later.\n
+    </string>
+
+    <string name="text_rules_body_2_nerts">
+        Each player shuffles his or her deck and places the top 13 cards face-up in a pile. This is
+        that player\'s Nerts pile. Then, he or she places four cards face-up in a row next to the
+        Nerts pile.
+        \n
+        \nThe four cards in a row can be played onto following the rules of Solitaire:\n
+    </string>
+
+    <string name="text_rules_hint_2_nerts">
+        A player may stack a card on top of another card if the card being played is of the opposite
+        color and has a value one lower than the card below it.
+        \n
+        \nFor example, if the lowest card in the stack is the Q&#x2665;, you may stack either the
+        J&#x2660; or the J&#x2663; on it.
+        \n
+        \nA player may move one stack onto another, provided this rule is not broken. Players may
+        not play a card underneath another card.\n
+    </string>
+
+    <string name="text_rules_body_3_nerts">
+        Aces (A) are played in the middle of all players. Again, these cards are played onto
+        following the rules of Solitaire, with a twist: Any player may play onto the cards in the
+        middle.\n
+    </string>
+
+    <string name="text_rules_hint_3_nerts">
+        A player may stack a card on top of another card if the card being played is of the same
+        suit as and has a value exactly one greater than the card below it.
+        \n
+        \nFor example, if an A&#x2660; is in the middle, any player may play a 2&#x2660; on it. Any
+        player may then play a 3&#x2660; on the stack and so on.
+        \n
+        \nTip: It is helpful to flip over a pile when playing the King (K) of that pile, so that
+        players can more easily know that the pile has been completed.\n
+    </string>
+
+    <string name="text_rules_body_4_nerts">
+        If multiple players attempt to play the same card onto a pile, the card that reaches the
+        pile first stays, while the other cards must be taken back.
+        \n
+        \nAny cards that are not in the starting 17 are kept in a face-down deck. Players use these
+        cards by drawing three at a time and playing the cards in order from top to bottom, if
+        possible.\n
+    </string>
+
+    <string name="text_rules_hint_4_nerts">
+        For example, if a player draws 6&#x2663;, K&#x2665;, and 9&#x2660;, in that order, he or she
+        must play the 9&#x2660; before the K&#x2665; and the K&#x2665; before the 6&#x2663;.\n
+    </string>
+
+    <string name="text_rules_body_5_nerts">If a player cannot play the top card of the cards he or
+        she has drawn, then he or she may draw three more cards and continue this process. If a
+        player has drawn all the cards in his or her deck, that player takes the drawn cards, flips
+        the pile face-down, and may continue drawing cards.
+        \n
+        \nPlayers may use the top card of their Nerts pile as normal, with one exception: The top
+        card of the Nerts pile may <i>not</i> be played in the individual Solitaire area (the row of
+        four cards in front of each player) unless there is an open space in the row, in which case
+        the card may be placed in that space.
+        \n
+        \nPlay continues in this way until a player plays all 13 cards from his or her Nerts pile
+        and calls out, \"Nerts!\"\n
+    </string>
+
+    <string name="text_rules_hint_5_nerts">
+        If multiple players call \"Nerts!\" at the about the same time, it is up to the other
+        players to determine whether one player called \"Nerts!\" first or if the players tie.\n
+    </string>
+
+    <string name="text_rules_body_6_nerts">
+        After a player calls \"Nerts!\", players may not play any more cards. Any cards being played
+        as \"Nerts!\" is called must be taken back.\n
+    </string>
+
+    <string name="text_rules_body_7_nerts">
+        The cards in the middle are sorted by player, that is, by the cards\' back designs, and each
+        player counts the number of cards he or she played in the middle. Each player then subtracts
+        from that amount the number of cards remaining in his or her Nerts pile. This number is that
+        player\'s round total.\n
+    </string>
+
+    <string name="text_rules_hint_6_nerts">
+        For example, if a player played 16 cards in the middle and had 5 cards remaining in his or
+        her Nerts pile, that player\'s round total would be 11 points.\n
+    </string>
+
+    <string name="text_rules_body_8_nerts">
+        This number is then added onto the player\'s previous score to form that player\'s new total
+        score.\n
+    </string>
+
+    <string name="text_rules_body_9_nerts">
+        Play continues in this way until one or more players reach or exceed a winning point value.
+        This value can be any amount, though 100 points is a good amount. The player with the most
+        points wins the game.
+    </string>
+    <!-- End Rules Activity (Nerts) -->
+
+    <!-- Rules Activity (Rich Cards) -->
+    <string name="text_rules_body_1_rich_cards">
+        To play Rich Cards, you need four or more players, a standard, 52-card deck of playing cards
+        without the Jokers, and something you can use to keep score (such as this app).\n
+    </string>
+
+    <string name="text_rules_hint_1_rich_cards">
+        Although you can play with any number of players (up to 52, at least), it is not recommended
+        to play with more than seven; it is best to play with four players, since no cards must be
+        removed. If the group is larger than seven, consider splitting into multiple groups.\n
+    </string>
+
+    <string name="text_rules_body_2_rich_cards">
+        You will need a number of cards evenly divisible by the number of players. This means that
+        you may need to remove some cards from the deck before you begin.\n
+    </string>
+
+    <string name="text_rules_hint_2_rich_cards">
+        <b>4 Players:</b> Use all 52 cards
+        \n<b>5 Players:</b> Use 50 cards
+        \n<b>6 Players:</b> Use 48 cards
+        \n<b>7 Players:</b> Use 49 cards
+        \nAnd so on.\n
+    </string>
+
+    <string name="text_rules_body_3_rich_cards">
+        Do not remove just any cards, as doing so will affect the scoring.\n
+    </string>
+
+    <string name="text_rules_hint_3_rich_cards">
+        Here are some examples of cards that are OK to remove:
+        \n<b>5 Players:</b> 6&#x2663;, 6&#x2666;
+        \n<b>6 Players:</b> 5&#x2666;, 6&#x2660;, 7&#x2663;, 6&#x2666;
+        \n<b>7 Players:</b> 5&#x2660;, 6&#x2666;, 7&#x2663;\n
+    </string>
+
+    <string name="text_rules_body_4_rich_cards">
+        Should you choose to remove cards other than these, make sure not to remove any &#x2665;
+        cards (See <b>Scoring</b>). If possible, don\'t remove high- or low-value cards, such as
+        Aces (A), 2s, Jacks (J), etc.\n
+    </string>
+
+    <string name="text_rules_body_5_rich_cards">
+        Chose the first dealer however you like. That player shuffles the deck and deals it out
+        evenly among all players.
+        \n
+        \nThe player to dealer\'s left plays first. He or she places a card from his or her hand
+        face-up in the middle. This card\'s suit is the trump suit for the trick. Continuing to the
+        left, each player plays a card from his or her hand in the same manner. However, each player
+        must play a card of the trump suit if possible. If a player does not have a card in the
+        trump suit, then he or she may play any card.\n
+    </string>
+
+    <string name="text_rules_hint_4_rich_cards">
+        For example, if Player 1 plays the 4&#x2663;, then every player must play a &#x2663; if he
+        or she has a &#x2663; in his or her hand. If, however, Player 3 has no &#x2663;s, then he
+        or she may instead play a &#x2666;.\n
+    </string>
+
+    <string name="text_rules_body_6_rich_cards">
+        Once all players have played a card, the player who played the highest-valued card in the
+        trump suit&#x2014;Aces are high&#x2014;takes the trick (all the cards played that round).\n
+    </string>
+
+    <string name="text_rules_hint_5_rich_cards">
+        For example, if the cards in the trick are:
+        \n<b>Player 1:</b> 6&#x2665;,
+        \n<b>Player 2:</b> 3&#x2665;,
+        \n<b>Player 3:</b> J&#x2660;, and
+        \n<b>Player 4:</b> 7&#x2665;;
+        \nthen Player 4 takes the trick. Even though Player 3\'s J&#x2660; has a higher value, it is
+        not in the leading suit (&#x2665;) and is therefore not considered when determining who
+        takes the trick.\n
+    </string>
+
+    <string name="text_rules_body_7_rich_cards">
+        The player who took the trick then leads the next one.
+        \n
+        \nPlay continues in this way until either all cards have been played or there are no more
+        possible points in the round (See <b>Scoring</b>). After the round is over, the player to the
+        left of the previous round\'s dealer becomes the dealer for the new round.\n
+    </string>
+
+    <string name="text_rules_body_8_rich_cards">
+        There are six rounds in a game, each with its own scoring method. The rounds are scored as
+        follows:\n
+    </string>
+
+    <string name="text_rules_hint_6_rich_cards">
+        <b>Round 1:</b> 10 points for each trick.
+        \n<b>Round 2:</b> 10 points for each &#x2665; card.
+        \n<b>Round 3:</b> 25 points for each Queen (Q) card.
+        \n<b>Round 4:</b> 100 points for the K&#x2660;.
+        \n<b>Round 5:</b> 100 points for the last trick.
+        \n<b>Round 6:</b> Use all previous scoring methods.\n
+    </string>
+
+    <string name="text_rules_body_9_rich_cards">
+        Note that in Rounds 2, 3, and 4, it is possible to finish the round before all cards have
+        been played. If there are no more cards left in players\' hands that are worth points, then
+        the round is over.\n
+    </string>
+
+    <string name="text_rules_hint_7_rich_cards">
+        For example, in Round 4, if a player takes the K&#x2660; in the fifth trick, then the round
+        is over, because the K&#x2660; is the only card worth points.\n
+    </string>
+
+    <string name="text_rules_body_10_rich_cards">
+        At the end of the game, each player\'s scores are added together to produce that player\'s
+        final score. The player with the <i>fewest</i> points wins the game.
+    </string>
+    <!-- End Rules Activity (Rich Cards) -->
+
+    <!-- Scorekeeper Activity -->
+    <string name="text_first_round">Initial Scores</string>
+    <string name="text_round">Round %1$d Scores</string>
+    <!-- End Scorekeeper Activity -->
+
+    <!-- Game Setup RV Adapter -->
+    <string name="text_game_setup_rv_adapter_team">Team %1$d</string>
+    <!-- End Game Setup RV Adapter -->
+
+    <!-- Select Game RV Adapter -->
+    <string name="text_select_game_rv_adapter_players_value">Players: %1$d</string>
+    <string name="text_select_game_rv_adapter_players_unlimited">Players: %1$d or more</string>
+    <string name="text_select_game_rv_adapter_players_range">Players: %1$d to %2$d</string>
+    <string name="text_select_game_rv_adapter_teams_none">Teams: None</string>
+    <string name="text_select_game_rv_adapter_teams">Teams: %1$d teams of %2$d</string>
+    <!-- End Select Game RV Adapter -->
+
+    <!-- Simple Score RV Adapter -->
+    <string name="text_simple_score_rv_adapter_hint">Score</string>
+    <!-- End Simple Score RV Adapter -->
+
+    <!-- Add Player Dialog -->
+    <string name="text_add_player_title">Add Player</string>
+    <string name="text_add_player_hint">Name</string>
+    <!-- End Add Player Dialog -->
+
+    <!-- Ask Edit Player Dialog -->
+    <string name="text_ask_edit_player_title">Edit %1$s?</string>
+    <!-- End Ask Edit Player Dialog -->
+
+    <!-- Edit Player Dialog -->
+    <string name="text_edit_player_title">Edit Player</string>
+    <string name="text_edit_player_hint_rename">Name</string>
+    <!-- End Edit Player Dialog -->
+
+    <!-- Info Dialog (Game Setup Activity) -->
+    <string name="dialog_title_error">Oops!</string>
+    <string name="dialog_title_confirm">Wait!</string>
+    <string name="text_error_ppt_not_valid">It looks like the teams aren\'t even.</string>
+
+    <string name="text_confirm_np_out_of_range">
+        There are currently %1$d players in the game. However, it is recommended to play with at
+        most %2$d. Do you still want to continue?
+    </string>
+    <!-- End Info Dialog (Game Setup Activity) -->
+
+    <!-- Info Dialog (Select Game Activity) -->
+    <string name="text_game_info_euchre">
+        Euchre is a plain-trick game. Teams try to win three of the five tricks per round, with the
+        goal of reaching ten points.
+    </string>
+
+    <string name="text_game_info_nerts">
+        Nerts is a highly competitive patience game. Players try to get rid of all the cards in
+        their Nerts piles by playing onto common piles.
+    </string>
+
+    <string name="text_game_info_rich_cards">
+        Rich Cards is a plain-trick game with a twist: Each of the six rounds has its own scoring
+        method and thus, its own strategy.
+    </string>
+    <!-- End Info Dialog (Select Game Activity) -->
+
+    <!-- General Dialog Strings -->
+    <string name="text_select_team_spinner_prompt">Select Team</string>
+    <string name="text_select_team_spinner_team">Team %1$d</string>
+    <!-- End General Dialog Strings -->
+
+    <!-- Game Strings -->
+    <string name="team_name">Team %1$d</string>
+    <!-- End Game Strings -->
+
+    <!-- Menu Actions -->
+    <string name="menu_action_rules">Rules</string>
+    <string name="menu_action_about">About</string>
+    <!-- End Menu Actions -->
+
+    <!-- General Strings -->
+    <string name="int_string" translatable="false">%1$d</string>
+    <string name="plus_minus" translatable="false">&#x00b1;</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="list_and">\ and\ </string>
+    <string name="list_comma">,\ </string>
+    <string name="list_comma_and">, and\ </string>
+    <!-- End General Strings -->
+</resources>
